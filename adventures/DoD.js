@@ -312,7 +312,7 @@ function DoDHall1DoorR() {
 		+ 'four closets on the walls. You:'
 		+ '<div class="link unselectable" onclick="DoDHall1DoorL()">Try to open the chest</div>'
 		+ '<div class="link unselectable" onclick="DoDHall1DoorL()">Open one of the closet doors</div>'
-		+ "If you leave the room, you can: "
+		+ "<p>If you leave the room, you can: "
 		+ '<div class="link unselectable" onclick="DoDHall1DoorL()">Try the other door</div>'
 		+ '<div class="link unselectable" onclick="DoDHall1Man()">Walk up to the man at the fountain</div>'
 		+ '<div class="link unselectable" onclick="DoDHall1Exit()">Slip to the other corridor</div>'
