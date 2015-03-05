@@ -1,6 +1,6 @@
-body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cursor: url('https://cloud.githubusercontent.com/assets/10750862/6496499/8228132c-c2cc-11e4-80da-dd6e1395c3e6.gif'), default;  }.unselectable {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cursor: url(cursormain.gif), default;  }.unselectable {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 #wrapper{ position: absolute;
-	background: url(https://cloud.githubusercontent.com/assets/10750862/6496505/8243a6a0-c2cc-11e4-93a5-a685b02a2413.png); background-position: center top; background-repeat: no-repeat;
+	background: url(background1.png); background-position: center top; background-repeat: no-repeat;
 	left: 0px;right: 0px;top: 0px;bottom: 0px;
 	box-shadow: 0px 0xp 80px 10px rgba(0, 0, 0, 1.0) inset;
 	-webkit-box-shadow: 0px 0px 80px 10px rgba(0, 0, 0, 1.0) inset;
@@ -12,7 +12,7 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #886 url(https://cloud.githubusercontent.com/assets/10750862/6496502/8230475e-c2cc-11e4-8f1a-21189ac70315.jpg) center center;
+	background: #886 url(old_paper.jpg) center center;
 	font-size: 20px;
 	overflow-y: auto;
 	
@@ -34,7 +34,7 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	transition: background-size 0.2s;
     -webkit-transition: background-size 0.2s;
 	
-	cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496500/822bdcb4-c2cc-11e4-8521-56267f5de429.gif), pointer;
+	cursor: url(cursorpointer.gif), pointer;
 	
 } #Dice:hover{ background-image: url(dice/diceroll/dicerollin.gif); background-size: 128px;
 	background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 20px;
-	cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496500/822bdcb4-c2cc-11e4-8521-56267f5de429.gif), pointer;
+	cursor: url(cursorpointer.gif), pointer;
 	
 	
 	text-align: center;
@@ -93,12 +93,12 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 }
 .link{
 	color: #006;
-	cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496500/822bdcb4-c2cc-11e4-8521-56267f5de429.gif), pointer;
+	cursor: url(cursorpointer.gif), pointer;
 	font-weight: bold;
 	transition: font-weight 0.2s;
     -webkit-transition: font-weight 0.2s;
 	
-} .link:hover{ color: #229; font-weight: 1000;} .linkdice{ cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496498/8224d5e0-c2cc-11e4-96ce-c43e48cc6f71.gif), pointer; }
+} .link:hover{ color: #229; font-weight: 1000;} .linkdice{ cursor: url(cursordice.gif), pointer; }
 #DiceOp {
 	position: absolute;top: 0px;right: 130px;padding: 10px;
 	color: #fff; font-size: 30px; text-shadow: 0px 0px 10px white;
@@ -127,12 +127,12 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	
 } #PackName{ position: absolute; color: white; font-size:  30px; left: 40%; top: 20px; text-shadow: 0px 2px 10px black;
 } #PackImage{
-	 cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496500/822bdcb4-c2cc-11e4-8521-56267f5de429.gif), pointer;
+	 cursor: url(cursorpointer.gif), pointer;
 	position: relative;width:45px;height:45px;margin: auto;
 	top: 10px;
-	background: url('https://cloud.githubusercontent.com/assets/10750862/6496503/823224b6-c2cc-11e4-9ff0-635ee478d429.png') center center; background-size: 45px; background-repeat: no-repeat;
+	background: url('pack.png') center center; background-size: 45px; background-repeat: no-repeat;
 	
-} #PackImage:hover{ background: url(https://cloud.githubusercontent.com/assets/10750862/6496504/823eefd4-c2cc-11e4-9dfc-f08aa36b2fce.png) center center; background-size: 45px; background-repeat: no-repeat; }
+} #PackImage:hover{ background: url('packhover.png') center center; background-size: 45px; background-repeat: no-repeat; }
 
 #PackItems {
 	position: absolute;left:30px;right:30px;top:70px;bottom:30px;
@@ -175,7 +175,7 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	background: rgba(23,8,3,0.5);
 	box-shadow: 0px 0xp 10px black inset;
 	-webkit-box-shadow: 0px 0px 10px black inset;
-	cursor: url(https://cloud.githubusercontent.com/assets/10750862/6496500/822bdcb4-c2cc-11e4-8521-56267f5de429.gif), pointer;
+	cursor: url(cursorpointer.gif), pointer;
 	color: #fff; font-size: 20px; text-shadow: 0px 2px 5px black;
 } .itemP:hover {
 	background: rgba(53,38,13,0.5);
