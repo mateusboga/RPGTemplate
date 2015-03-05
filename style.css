@@ -6,7 +6,6 @@ body{ font-family: 'Vollkorn', arial; background: #0e0905; overflow: hidden; cur
 	-webkit-box-shadow: 0px 0px 80px 10px rgba(0, 0, 0, 1.0) inset;
 	color: black;
 }
-
 #gameArea{
 	
 	height: 100%;
